@@ -61,6 +61,9 @@ body {
 .button-icon {
   margin-right: 6px;
 }
+.button-card-text {
+  margin-right: 10px;
+}
 .promo {
   box-shadow: 0px 7px 12px rgba(158, 158, 163, 0.1);
   background: #fff1b8 url(../img/promo-image2.png) no-repeat top -100px right -247px /
@@ -119,6 +122,9 @@ body {
   overflow: hidden;
   margin-bottom: 30px;
   flex-basis: 31%;
+  text-decoration: none;
+}
+.card {
 }
 .card-image {
   width: 384px;
@@ -144,6 +150,7 @@ body {
   line-height: 32px;
 }
 .card-title-reg {
+  font-size: 22px;
   font-weight: 400;
 }
 .card-tag {
@@ -161,6 +168,18 @@ body {
   align-items: center;
   flex-wrap: wrap;
 }
+.card-buttons {
+  display: flex;
+  align-items: center;
+  margin-top: 24px;
+}
+.card-price-bold {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 32px;
+  margin-left: 30px;
+  color: #000000;
+}
 .ratting {
   margin-right: 26px;
   font-style: normal;
@@ -176,7 +195,7 @@ body {
   color: #8c8c8c;
 }
 .ingredients {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 21px;
   color: #8c8c8c;
 }
@@ -274,7 +293,7 @@ body {
   .card-info {
     flex-wrap: wrap;
   }
-  .ratting {
+  .card .ratting {
     flex-basis: 100%;
   }
   .card-title {
