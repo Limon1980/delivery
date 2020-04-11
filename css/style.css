@@ -33,6 +33,7 @@ body {
 .input-search {
   width: 300px;
   background-image: url(../img/search.svg);
+  margin-left: auto;
 }
 .buttons {
   display: flex;
@@ -94,7 +95,6 @@ body {
 .section-heading {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   margin-bottom: 44px;
 }
 .section-title {
@@ -103,6 +103,8 @@ body {
   font-size: 36px;
   line-height: 42px;
   margin: 0;
+  color: #000000;
+  margin-right: 30px;
 }
 .cards {
   display: flex;
@@ -141,6 +143,9 @@ body {
   font-size: 24px;
   line-height: 32px;
 }
+..card-title-reg {
+  font-weight: 400;
+}
 .card-tag {
   font-style: normal;
   font-weight: normal;
@@ -168,6 +173,11 @@ body {
 .category {
   font-size: 18px;
   line-height: 32px;
+  color: #8c8c8c;
+}
+.ingredients {
+  font-size: 18px;
+  line-height: 21px;
   color: #8c8c8c;
 }
 .price {
