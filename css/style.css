@@ -125,8 +125,8 @@ body {
   text-decoration: none;
 }
 .card-image {
-  width: 384px;
-  height: 250px;
+  width: 294px;
+  height: 186px;
   object-fit: cover;
 }
 .card-text {
@@ -379,6 +379,9 @@ body {
     font-size: 18px;
     max-width: 400px;
   }
+  .card-image {
+    width: 100%;
+  }
   .card {
     flex-basis: 49%;
   }
@@ -392,6 +395,9 @@ body {
   }
   .card-info {
     flex-wrap: wrap;
+  }
+  .card-image {
+    width: 95%;
   }
   .card .ratting {
     flex-basis: 100%;
