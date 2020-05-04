@@ -12,3 +12,4 @@ function toggleModal() {
 }
 
 new WOW().init();
+foo;
